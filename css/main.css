@@ -9,7 +9,7 @@ body {
 
 h1 {
 	text-align: center; 
-	font-weight: bold;
+	font-weight: bolder;
 	font-size: 2em;
 	font-family: sans-serif;
 	border: solid black; 
@@ -27,6 +27,26 @@ h1#title {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 1.5em;
+	border: solid black;
+	border-radius: 40px;
+	padding: 2px;
+}
+
+h2#add-button {
+
+	width: 50px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+
 }
 
 li {
