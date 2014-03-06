@@ -1,0 +1,53 @@
+
+body {
+	background-color: lightBlue;
+}
+
+.main {
+
+}
+
+h1 {
+	text-align: center; 
+	font-weight: bold;
+	font-size: 2em;
+	font-family: sans-serif;
+	border: solid black; 
+
+	border-radius: 20px;
+	padding: 10px;
+}
+
+h1#title {
+	
+	width: 250px;
+	
+	background-color: white;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+li {
+
+	text-align: center;
+	padding: 10px 0 5px 0;
+}
+
+.remove {
+	color: red;
+}
+
+
+p {
+
+}
+
+#main-list {
+
+}
+
+.list-item {
+
+}

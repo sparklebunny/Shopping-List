@@ -1,0 +1,31 @@
+
+.main {
+
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+h1 {
+
+	font-weight: bold;
+	font-size: 2em;
+	font-family: sans-serif;
+	border: solid black;
+	border-radius: 3px;
+	padding: 20px;
+
+	
+}
+
+p {
+
+}
+
+#main-list {
+
+}
+
+.list-item {
+
+}
