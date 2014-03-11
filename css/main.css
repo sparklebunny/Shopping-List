@@ -45,13 +45,29 @@ h2 {
 
 /* ADD / PLUS BUTTON FOR FORM */
 
+form {
+    display: inline-block;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
 #add-button {
 	text-align: center;
 	font-weight: bold;
 	font-family: serif;
 	font-size: 1.5em;
 	padding-top: 20px;
-
 }
 
 .plus {
