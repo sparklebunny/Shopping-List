@@ -4,8 +4,15 @@ $(document).ready(function() {
 //MODEL FROM CODECADEMY EXERCISES
 	$("#button").click(function() {
         var toAdd = $("input[name=checkListItem]").val();
-        $(".list").append('<div class="item"><input type="checkbox" class="checkbox" />' + toAdd + 
-        	'<span class="delete-item">X</span></div>');
+        $(".list").append(
+        	'<div class="item">' +
+        		'<input type="checkbox" class="checkbox" />' +
+        		'<span class="text">' + 
+        			toAdd + 
+        		'</span>' +
+        		'<span class="delete-item"><img src="images/delete-button.png" /></span>' +
+        	'</div>');
+        $("#check-list-item").val("");
     });
 
    	$(document).on('click', '.delete-item', function() {
@@ -15,11 +22,11 @@ $(document).ready(function() {
 
     $(document).on('click', ".checkbox", function() {
     	if ($(this).is(':checked')) {
-    		$(this).parent().wrap("<strike>");
+    		$(this).parent().find('.text').wrap("<strike>");
     	}
 
     	else {
-    		$(this).parent().unwrap("<strike>");
+    		$(this).parent().find('.text').unwrap();
     	}
     	
     	
