@@ -1,5 +1,9 @@
 $(document).ready(function() {
-	
+
+//HELP ALERT 
+    $("#help").on("click", function() {
+        alert($("#help-info").text());
+    });
 
 //MODEL FROM CODECADEMY EXERCISES
 	$("#button").click(function() {
@@ -28,8 +32,14 @@ $(document).ready(function() {
     	else {
     		$(this).parent().find('.text').unwrap();
     	}
+
+    // $(document).on('click', "#help-info", function(){
+    //     $("#help-info").popBox();
+    // 	});
     	
-    	
+
+
+
     });
 
     // $(document).on('click', '#item-name', function() {
@@ -48,6 +58,7 @@ $(document).ready(function() {
 	// 	});
 		
 ///////////////////////////////////////////////////////////
+
 
 
 

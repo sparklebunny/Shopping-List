@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
+	
 </head>
 
 <body>
@@ -15,18 +16,24 @@
 <!--TITLE AND HELP LINK-->
 
 	<div class="main">
+
+	<hgroup class="hgroup">
 		<h1 id="title">Shopping List</h1>
-		<h2 id="help"><a href="link" target="blank">?</a></h2>
+		<h2 id="help"><a href="#help-info">Help</a></h2>
+			<div id="help-info" title="How to Use the Shopping List"><p>Enter text into text area and click on "submit". Click on the box to mark an item off the list or click again to uncheck and item. Click on the "x" button to remove an item from your list.</p></div> 
+	</hgroup>
+
 	
 	<form name="checkListForm">
 			<input type="text" name="checkListItem" id="check-list-item" value=""/>
 	</form>
 
 	<div id="button">Add!</div>
-	<br/>		
-	<div class="list"></div>
-
+	<br/>	
+	<div class="list"><div class="item"></div></div>
+	
 	</div>
+
 
 
 
